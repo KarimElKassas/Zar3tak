@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652979486425",
+    "firebase_url": "https://zar3tak.firebaseio.com",
+    "project_id": "zar3tak",
+    "storage_bucket": "zar3tak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652979486425:android:b8496e593dacd5d29988c8",
+        "android_client_info": {
+          "package_name": "com.elkassas.zar3tak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652979486425-ueiphnvbg3eamv2capas1hqeqnr1uk13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elkassas.zar3tak",
+            "certificate_hash": "4f76ae820daa241fd9bc4dce50f022c8d29794f1"
+          }
+        },
+        {
+          "client_id": "652979486425-bv450ce3skd1ln22rkkej5jsmbh8sa69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdXXoZ9Coxj8F9ypNro87sC2h5NdD7lNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652979486425-bv450ce3skd1ln22rkkej5jsmbh8sa69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
