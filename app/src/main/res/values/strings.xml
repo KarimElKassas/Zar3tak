@@ -52,4 +52,6 @@
     <string name="national_id">National ID</string>
     <string name="customer">Customer</string>
     <string name="seller">Seller</string>
+    <string name="create_new_account">Create New Account ?</string>
+    <string name="or_sign_in">Or Sign In ?</string>
 </resources>

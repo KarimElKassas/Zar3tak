@@ -14,7 +14,7 @@
         android:fontFamily="cursive"
         android:textStyle="bold"
         android:text="@string/zar3tak"
-        android:textColor="#000"
+        android:textColor="#067710"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

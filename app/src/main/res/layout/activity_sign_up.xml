@@ -22,8 +22,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintEnd_toEndOf="@id/create_an_account_text"
-                app:layout_constraintStart_toStartOf="@id/create_an_account_text"
+                app:layout_constraintEnd_toEndOf="@id/sign_up_create_an_account_text"
+                app:layout_constraintStart_toStartOf="@id/sign_up_create_an_account_text"
                 android:layout_marginTop="48dp"
                 android:textColor="#067710"
                 android:textStyle="bold"
@@ -32,7 +32,7 @@
                 android:letterSpacing="0.1"
                 />
             <TextView
-                android:id="@+id/create_an_account_text"
+                android:id="@+id/sign_up_create_an_account_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/sign_up_register_text"
@@ -54,7 +54,7 @@
                 android:src="@drawable/ic_add_user"
                 app:layout_constraintEnd_toEndOf="@id/sign_up_user_name_edit_txt"
                 app:layout_constraintStart_toStartOf="@id/sign_up_user_name_edit_txt"
-                app:layout_constraintTop_toBottomOf="@id/create_an_account_text"
+                app:layout_constraintTop_toBottomOf="@id/sign_up_create_an_account_text"
                 />
 
             <com.google.android.material.textfield.TextInputEditText
@@ -201,13 +201,13 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
             <Button
                 android:id="@+id/sign_up_sign_up_btn"
-                android:layout_width="170dp"
+                android:layout_width="180dp"
                 android:layout_height="50dp"
                 app:layout_constraintTop_toBottomOf="@id/sign_up_radio_constraint"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginBottom="12dp"
+                android:layout_marginBottom="24dp"
                 android:layout_marginTop="12dp"
                 android:background="@drawable/btn_back2"
                 android:textColor="#FFF"
@@ -217,6 +217,21 @@
                 android:textSize="18sp"
                 android:textAlignment="center"
                 />
+            <TextView
+                android:id="@+id/sign_up_sign_in_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sign_up_sign_up_btn"
+                app:layout_constraintStart_toStartOf="@id/sign_up_sign_up_btn"
+                app:layout_constraintEnd_toEndOf="@id/sign_up_sign_up_btn"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:letterSpacing="0.07"
+                android:text="@string/or_sign_in"/>
             <FrameLayout
                 android:id="@+id/sign_up_progressBarHolder"
                 android:layout_width="0dp"
