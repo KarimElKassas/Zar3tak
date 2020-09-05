@@ -216,7 +216,7 @@ class Login : AppCompatActivity() {
                             progressBarHolder_login.visibility = View.GONE
                             window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
 
-                            val intent = Intent(this, SellerScreen::class.java)
+                            val intent = Intent(this, SellerNavigation::class.java)
                             intent.putExtra("CurrentUser", user.toString())
                             startActivity(intent)
                             overridePendingTransition(
